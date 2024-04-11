@@ -458,7 +458,7 @@
     }
     
     .r {
-        width: 450px;
+        width: 100%;
     }
     
     .s {
@@ -493,6 +493,10 @@
 
     .hdpc {
         visibility: unset;
+    }
+
+    .act_2 {
+        width: 95%;
     }
 
     .pengalaman>img {
