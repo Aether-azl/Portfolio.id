@@ -16,49 +16,86 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- link CdnJS FontAwesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- style_css_CDN -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
+  <!-- music backsound -->
+
+
+
   <div class="alldiv">
     <!-- profie picture -->
 
     <div class="toprofil">
-      <div class="box">
+      <div class="box ">
+        <div class="backsound">  
+          <button style="padding-left: 5px; padding-right: 5px;" class="button_music" onclick="playAudio()"><i class="fa-solid fa-play"></i><h10 style="font-weight: 500; ">Music</h10></button>
+          <audio id="myAudio">
+            <source src="music.mp3" type="audio/mpeg">
+          </audio>
+          
+          <script>
+          function playAudio() {
+            document.getElementById("myAudio").play();
+          }
+          </script>
+          </div>
         
         
         <div class="profile">
-          <div class="pfp"><img src="pp.jpg" alt="">
+          <div class="pfp animate__animated animate__fadeInDown"><img src="Gambar WhatsApp 2024-09-24 pukul 18.15.33_02a90ada.jpg" alt="">
+            
 
       </div>
       <div class="textpfp">
-        <h1>Hi, I'm Aether</h1>
-        <i style=" color: rgb(235, 235, 235);">Just a young freelance web developer studying IT</i>
+        <h1 style="font-family: sans-serif; font-weight: 600;" class="animate__animated animate__fadeInUp animate__delay-1s">Hi, I'm Aether</h1>
+        <i class="animate__animated animate__fadeInDown animate__delay-2s" style=" color: rgb(235, 235, 235);">Z Generation Freelance Web Developers</i>
         <div style="display: flex; justify-content: center; align-items: center;" class="pfpp">
-          <p style="color: rgb(253, 155, 86);">* </p><p style="color: rgb(197, 197, 197); " class="pfpp">Actually my real name is Nicholas Owen, it's up to you what you call me :v</p>
+          <p style="color: rgb(253, 155, 86);" class="animate__animated animate__fadeInDown animate__delay-3s">* </p><p style="color: rgb(197, 197, 197); " class="pfpp animate__animated animate__fadeInUp animate__delay-3s">Actualy I'm just a junior high school who likes computers :v</p>
         </div>
       </div>
+
         <li class="contact">
-          <a class="kontak" href="form.html"><h1>Contact Me</h1></a>
-          <a class="about" href="#about"><h1>Who's Me</h1></a>
+          <a class="btpfp kontak animate__animated animate__fadeInLeft animate__delay-1s" href="form.html"><h1>Contact Me</h1></a>
+          <a class="btpfp about animate__animated animate__fadeInRight animate__delay-1s" href="#about"><h1>Who's Me</h1></a>
         </li>
         <div class="icon">
-          <li><span><a href="https://www.instagram.com/nicholas_owen/"><i class="ic IG fab fa-instagram"></a></i></span></li>
-          <li><span><a href="https://twitter.com/Aether_Arsenic"><i class="ic pt fab fa-x-twitter"></i></span></a></li>
-          <li><span><a href="https://github.com/BimoAether"><i class="ic GH fab fa-github"></i></span></a></li>
-          <li><span><a href="https://www.tiktok.com/@aether_cuervo?is_from_webapp=1&sender_device=pc"><i class="ic TT fab fa-tiktok"></i></span></a></li>
+          <li><span><a title="instagram link" href="https://www.instagram.com/ncho_owen/"><i class="animate__delay-3s animate__animated animate__fadeInUp ic IG fab fa-instagram"></a></i></span></li>
+          <li><span><a title="twitter/X link" href="https://twitter.com/Aether_Arsenic"><i class="animate__delay-3s animate__animated animate__fadeInDown ic pt fab fa-x-twitter"></i></span></a></li>
+          <li><span><a title="github link" href="https://github.com/BimoAether"><i class="animate__delay-3s animate__animated animate__fadeInUp ic GH fab fa-github"></i></span></a></li>
+          <li><span><a title="tiktok link" href="https://www.tiktok.com/@aether_cuervo?is_from_webapp=1&sender_device=pc"><i class="animate__delay-3s animate__animated animate__fadeInDown ic TT fab fa-tiktok"></i></span></a></li>
         </div>
       </div>
     </div>
     <!-- abot me -->
     <div class="tentang">
     <div class="tentangku" id="about">
+      
+      <img src="bmo.jpg" alt="">
       <div class="textabout">
       <h1>
       Who's Aether.?
       </h1>
-      <p>hello there! Aether here. my real name is Nicholas Owen, you can call me whatever you like. let's get to know me briefly, I'm Owen, a 16 year old Indonesian boy who works in the world of technology, especially in the fields of web developer, robotics and graphic design. I started diving and learning all of that when I was 11 and started working in 2023, and I also started my career in the world of sports, namely kick boxing on July 28, 2024, I have a hobby of reading novels, whether offline or online novels and my favorite author is Tereliye and currently I live in Denpasar, Bali, Indonesia</p>
+      <p>Hello everyone! Aether here. My real name is Nicholas Aziel Owen, you can call me El. Let's get to know each other for a moment, my name is Owen El, a 15-year-old Indonesian boy in junior high school who is involved in the world of technology, especially in the fields of web developers, robotics and graphic design. I started studying and studying all of that since I was 11 years old and started working in 2023 when I first entered junior high school, and I also started my career in the world of sports, namely kick boxing on July 28, 2024, I have a hobby of reading novels, both offline and online novels and my favorite author is Tereliye. I currently live temporarily in Denpasar, Bali, Indonesia</p>
       </div>
-      <img src="aether.jpeg" alt="">
     </div>
+
+    <div class="tnt"></div>
+    
+    <div class="achivement" id="about">
+      
+      <div class=" achive">
+        <h1>
+          My Achievement
+        </h1>
+        <p>Hello everyone! Aether here. My real name is Nicholas Aziel Owen, you can call me El. Let's get to know each other for a moment, my name is Owen El, a 15-year-old Indonesian boy in junior high school who is involved in the world of technology, especially in the fields of web developers, robotics and graphic design. I started studying and studying all of that since I was 11 years old and started working in 2023 when I first entered junior high school, and I also started my career in the world of sports, namely kick boxing on July 28, 2024, I have a hobby of reading novels, both offline and online novels and my favorite author is Tereliye. I currently live temporarily in Denpasar, Bali, Indonesia</p>
+      </div>
+      <img src="winner.jpg" alt="">
+      <img src="winn.jpg" alt="">
+    </div>
+    
+    
     <div class="tnt" style="margin-top: -50px;">
     </div>
     
@@ -81,7 +118,7 @@
 
       <div class="hubme tool">
         <h1>Contact More Me</h1>
-        <li><a href="https://discord.gg/QSbFUdzX"><span><i class="DC fab fa-discord"></i></span>Discord</a></li>        
+        <li><a href="https://discord.gg/rN5GcwgQ"><span><i class="DC fab fa-discord"></i></span>Discord</a></li>        
         <li><a href="form.html"><span><i class="fa-regular fa-envelope"></i></span> E-mail </a></li>        
         <li><a href="https://twitter.com/Aether_Arsenic"><span><i class="DC fab fa-x-twitter"></i></span> Twitter</a></li>        
         <li><a href="https://wa.me/6281235667795?text=Hi!%20Aether%20can%20you%20help%20me"><span><i class="DC fab fa-whatsapp"></i></span> WhatsApp</a></li>
@@ -172,6 +209,23 @@
       </div>
     </div>
     </div>
+
+
+    <form action="proses.php" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" required></textarea>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+
+    
 
 
 

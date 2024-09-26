@@ -2,6 +2,22 @@
     background-color: black;
 }
  */
+ .backsound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+.button_music {
+    border-radius: 5px;
+    background-color: #a3e6f7;
+    padding: 1px;
+    border: solid 2px #ffffff;
+}
+.btpfp {
+    animation-duration: 2s;
+}
 
 .toprofil {
     background-image: url(pexels-josh-sorenson-1714208.jpg);       
@@ -19,7 +35,7 @@
     border: solid 2px #ffffff;
     background-color: rgba(0, 0, 0, 0.712);
     backdrop-filter: blur(5px);
-    box-shadow: 0px 0px 10px 0px rgb(0, 255, 247), inset 0px 0px 10px 2px rgb(0, 255, 234);
+    box-shadow: 0px 0px 10px 0px #00fff7, inset 0px 0px 10px 2px rgb(0, 255, 234);
     border-radius: 2%;
 }
 
@@ -34,14 +50,14 @@
 .pfp > img {
     width: 200px;
     height: 200px;
-    border-radius: 20%;
+    border-radius: 90%;
     border: 5px solid white;
     transition: all 0.8s ease-in-out;
     box-shadow: 0px 0px 20px 0px rgb(250, 232, 129);
 }
 .pfp :hover {
     box-shadow: 0, 100px, 100px, 0 rgba(255, 0, 0, 0.5);
-    border-radius: 90%;
+    border-radius: 20%;
     border: 5px solid white;
 
 }
@@ -59,7 +75,7 @@
     justify-content: center;
     align-items: center;
     color: aliceblue;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .pfpp>p {
@@ -68,7 +84,7 @@
     align-items: center;
     color: aliceblue;
     margin-bottom: 50px;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 .btg {
@@ -111,7 +127,7 @@
 
 .about>h1 {
     text-decoration: none;
-    background-color: rgb(163, 230, 247);
+    background-color: #a3e6f7;
     list-style-type: none;
     text-decoration: none;
     font-size: 15px;
@@ -212,19 +228,44 @@
     padding: 100px;
 }
 
+.achivement {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
 .textabout {
+    margin-left: 90px;
+}
+
+.achive {
     margin-right: 90px;
 }
 
 .tentangku>img {
-    width: 450px;
+    width: 350px;
     border: 2px solid white;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgb(250, 232, 129);
 
 }
 
+.achivement>img {
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 0px rgb(250, 232, 129);
+
+}
+
 .textabout>h1 {
+    color: aqua;
+}
+
+.achive>h1 {
     color: aqua;
 }
 
