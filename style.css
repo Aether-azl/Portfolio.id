@@ -2,6 +2,40 @@
     background-color: black;
 }
  */
+
+
+
+
+
+
+
+
+ .show {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+
+
+#myButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    height: 20px;
+}
+
+
+
+
+
+
+
  .backsound {
     display: flex;
     justify-content: center;
@@ -11,20 +45,21 @@
 
 .button_music {
     border-radius: 5px;
-    background-color: #a3e6f7;
+    background-color: #171717;
     padding: 1px;
-    border: solid 2px #ffffff;
+    color: aqua;
+    border: solid 2px #00bb9c;
 }
 .btpfp {
     animation-duration: 2s;
 }
 
 .toprofil {
-    background-image: url(pexels-josh-sorenson-1714208.jpg);       
+    background-image: url(Japan\ Grunge\ Aesthetic\ Wallpaper\ Pc.gif);       
     background-size: cover;
     background-attachment: fixed;
     min-height: 1000px;
-    height: 5200px;
+    height: 5500px;
     padding-top: 20px;
 }
 
@@ -32,11 +67,15 @@
     margin: 100px;
     margin-top: 0;
     margin-bottom: 200px;
-    border: solid 2px #ffffff;
+    border: solid 1px #ffffff;
     background-color: rgba(0, 0, 0, 0.712);
-    backdrop-filter: blur(5px);
-    box-shadow: 0px 0px 10px 0px #00fff7, inset 0px 0px 10px 2px rgb(0, 255, 234);
-    border-radius: 2%;
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 8px 2px #00fff7;
+    border-radius: 15px;
+}
+
+.space {
+    width: 10px;
 }
 
 .pfp {
@@ -108,7 +147,7 @@
 
 .kontak>h1 {
     text-decoration: none;
-    background-color: rgb(255, 218, 118);
+    background-color: rgb(26, 26, 26);
     text-decoration: none;
     font-size: 15px;
     padding-left: 80px;
@@ -116,18 +155,18 @@
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: #e2ba2b;
     border-radius: 8px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid #ffdb5b;
     margin: 20px;
     margin-top: 0;
-    box-shadow: 0px 0px 10px 0px rgb(226, 186, 43);
+    box-shadow: 0px 0px 10px 0px #e2ba2b;
     transition: all 0.2s ease-in-out;
 }
 
 .about>h1 {
     text-decoration: none;
-    background-color: #a3e6f7;
+    background-color: #262626;
     list-style-type: none;
     text-decoration: none;
     font-size: 15px;
@@ -136,9 +175,9 @@
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: aqua;
     border-radius: 8px;
-    border: 2px solid white;
+    border: 2px solid aqua;
     margin: 20px;
     margin-top: 0;
     box-shadow: 0px 0px 10px 0px rgb(163, 230, 247);
@@ -151,8 +190,8 @@
     list-style-type: none;
     text-decoration: none;
     font-size: 15px;
-    padding-left: 55px;
-    padding-right: 55px;
+    padding-left: 85px;
+    padding-right: 85px;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -168,8 +207,8 @@
     background-color: rgb(125, 117, 71);
     text-decoration: none;
     font-size: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -191,31 +230,32 @@
 
 .ic {
     padding: 10px;
-    color: rgb(255, 255, 255);
     font-size: 18px;
     margin-right: 52px;
     margin-left: 52px;
     border-radius: 20%;
-    border: 3px solid white;
     transition: all 0.3s ease-in-out;
-    box-shadow: 0px 0px 10px 2px rgb(255, 226, 123);
     margin-bottom: 60px;
+    color: aqua;
+    border: 2px solid #ffedac;
+    box-shadow: 0px 0px 10px 2px #e2ba2b;
 }
 
 .ic:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(25, 25, 25);
     padding: 10px;
-    color: rgb(0, 0, 0);
-    font-size: 15px;
+    font-size: 20px;
     margin-right: 100px;
     margin-left: 100px;
     border-radius: 30%;
-    border: 2px solid white;
+    box-shadow: 0px 0px 10px 2px aqua;
+    color: #ffd84b;
+    border: 2px solid aqua;
 }
 
 .tentang {
     background-color: rgb(0, 0, 0);
-    height: 4500px;
+    height: 5000px;
     background-color: rgba(0, 0, 0, 0.787);
     backdrop-filter: blur(50px);
 }
@@ -226,6 +266,7 @@
     justify-content: center;
     align-items: center;
     padding: 100px;
+    font-size: 20px;
 }
 
 .achivement {
@@ -234,6 +275,7 @@
     justify-content: center;
     align-items: center;
     padding: 100px;
+    font-size: 20px;
 }
 
 .textabout {
@@ -252,13 +294,20 @@
 
 }
 
-.achivement>img {
+.img-achivement>img {
     width: 250px;
     border: 2px solid white;
     border-radius: 10px;
     margin: 20px;
-    box-shadow: 0px 0px 10px 0px rgb(250, 232, 129);
+    box-shadow: 0px 0px 10px 0px #fae881;
+    
+}
 
+.img-achivement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
 }
 
 .textabout>h1 {
@@ -266,7 +315,7 @@
 }
 
 .achive>h1 {
-    color: aqua;
+    color: #fae881;
 }
 
 
@@ -289,7 +338,7 @@
 .tools {
     background-color: rgba(0, 0, 0, 0.938);
     backdrop-filter: blur(5px);
-    height: 2050px;
+    height: 20px;
     padding-top: 50px;
     align-items: center;
 }
@@ -338,7 +387,7 @@
     height: 240px;
     border-radius: 3px;
     background-color: rgb(37, 39, 44);
-    box-shadow: 0px 0px 5px 5px rgb(163, 230, 247);
+    box-shadow: 0px 0px 5px 5px #fae881;
     transition: all 0.3s ease-in-out;
     font-size: 18px;
 }
@@ -475,9 +524,16 @@
     display: flex;
     justify-content: center;
     color: #00ffff;
-    font-size: 80px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-size: 30px;
+    background-color: #272727;
+    border: solid 2px #00ffff;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.aktivitas {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -488,6 +544,10 @@
 .s {
     width: 100px;
 }
+
+#teks {
+    transition: transform 0.5s ease-in-out;
+  }
 
 .hdpc {
     visibility: hidden;
@@ -511,5 +571,33 @@
 }
 
 
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 160px;
+    height: 45px;
+    background-color: #25d366;
+    border-radius: 50px;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    opacity: 0; /* Awalnya disembunyikan */
+    transition: opacity 0.5s ease-in-out; /* Animasi muncul */
+    text-decoration: none;
+  }
 
+  .wb {
+    font-family: 'Courier New', Courier, monospace;
+  }
 
+  .wbb {
+    margin-bottom: -1px;
+  }
