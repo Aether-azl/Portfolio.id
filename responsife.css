@@ -4,7 +4,7 @@
         background-size: cover;
         background-attachment: fixed;
         min-height: 1000px;
-        height: 7400px;
+        height: 8250px;
         justify-content: center;
         align-items: center;
     }
@@ -213,7 +213,7 @@
     }
     
     .tentang {
-        height: 6700px;
+        height: 7550px;
         margin: 0;
     }
     
@@ -572,5 +572,22 @@
         border-radius: 18%;
         margin-left: 26px;
         margin-bottom: 5px;
+    }
+    
+    .contact-from>h1 {
+        display: flex;
+        justify-content: center;
+        color: #00ffff;
+        font-size: 30px;
+        background-color: #27272700;
+        border: solid 2px #00ffff;
+        width: 200px;
+        border-radius: 20px;
+    }
+    
+    .contact-from {
+        MARGIN-top: 0px;
+        display: flex;
+        justify-content: center;
     }
 }
